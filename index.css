@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding:0;
+   
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    background-color:#E4F9F5;
+    padding: 20px;
+   
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius:50%;
+    float: left;
+}
+.text{
+    float: left;
+    padding:25px;
+}
+h1,h2,h3,h4,h5{
+    color: #11999e;
+}
+.contract{
+    float: right;
+    padding:25px;
+}
+.contract p a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+  
+}
+.contract p a:hover{
+    text-decoration: underline tomato;
+    
+
+}
+.div-clear{
+   clear: both;
+
+}
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+/* main */
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.common-hr{
+    border:1px solid black;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;
+}
+/* key skills  */
+.right-div li{
+    list-style-type: square;
+}
+/* education */
+.right-div1{
+   width: 45%;
+    float:left;
+}
+.right-div2{
+    width: 45%;
+    float:right;
+   
+}
+.right-div1 p a, .right-div2 p a{
+    color: black;
+    text-decoration: none;
+}
+ a:hover{
+    color: rgb(79, 168, 241);
+    text-decoration: underline;
+}
+
+.footer-text{
+    text-align: center;
+    background: #000; 
+    padding:8px 0px; 
+   
+    
+}
+.footer-text a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    padding:0px 20px;
+   
+}
+.footer-text p{
+    color:white;
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+.right-div a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.footer-text a:hover{
+    color: rgb(61, 202, 73);
+    text-decoration: underline;
+
+}
